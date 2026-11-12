@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oleksandr Kozachenko – portefølje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <span class="logo" role="img" aria-label="OK"><span aria-hidden="true">O</span><span class="logo-k" aria-hidden="true">K</span></span>
+    <nav aria-label="Hovedmeny">
+      <a href="#om-meg">om meg</a>
+      <a href="#projects">projects</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="om-meg" class="about">
+      <img class="photo portrait" src="images/profil.jpg" alt="Portrett av Oleksandr Kozachenko utendørs">
+      <div class="about-text">
+        <h1>Om Meg</h1>
+        <p>Hallo! Jeg heter Oleksandr Kozachenko, er 20 år og kommer fra Ukraina. Jeg er veldig glad i teknologi, så da jeg var i Ukraina, kom jeg inn på og fullførte college med utdanning innen automasjon og dataintegrert teknologi. Etter å ha flyttet til Norge, begynte jeg på Breivang vgs på IT-linjen.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <article class="project project-car" aria-labelledby="car-title">
+        <div class="project-text">
+          <h3 id="car-title">Arduino-bil</h3>
+          <p>Grunnleggende oppsett, montering og programmering av en bil som har som funksjon å kjøre fremover til den møter på et hinder. Det er mulighet for videre oppgradering av denne bilen, for eksempel ved å legge til programvare for svinging eller Bluetooth-styring.</p>
+        </div>
+        <img class="photo" src="images/arduino-bil.jpg" alt="Arduino-bil med fire hjul, ledninger og en ultralydsensor">
+      </article>
+
+      <article class="project" aria-label="Luftparametermåler med ESP32">
+        <img class="photo" src="images/esp32.jpg" alt="ESP32-kort på et koblingsbrett med sensorer, ledninger og en liten skjerm">
+        <div class="project-text">
+          <p>Luftparametermåler basert på ESP32-kortet. Nærmere bestemt to temperaturverdier (for bedre nøyaktighet), en luftfuktighets- og trykksensor. Det ble også opprettet et nettsted der modulen viser aktuelle verdier i sanntid og konverterer trykket til høyde over havet.</p>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Kontakt: kozachenkooleksandr7@gmail.com</p>
+  </footer>
+</body>
+</html>
